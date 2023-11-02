@@ -1,0 +1,29 @@
+section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h6 {
+    font-size: 2em;
+}

@@ -1,0 +1,11 @@
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.content {
+    flex: 1;
+}

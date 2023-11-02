@@ -1,0 +1,7 @@
+<form (ngSubmit)="saveWord(wordForm)" #wordForm="ngForm">
+    <mat-form-field>
+        <label for="word">Enter a word</label>
+        <input type="text" id="word" name="word" ngModel required matInput>
+    </mat-form-field>
+    <button type="submit" mat-stroked-button color="primary">Submit</button>
+</form>
